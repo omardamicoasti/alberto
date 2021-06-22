@@ -1,0 +1,34 @@
+Ciao Omar,
+
+come da accordi telefonici, a te l'esercizio:
+
+Si implementi nel linguaggio di propria scelta tra NodeJs, PHP, C#, uno script da eseguire da linea di comando.
+Si possono usare librerie di terze parti a vostro piacimento.
+Lo script riceve in input il percorso di un file csv da importare, un numero di colonna nel quale cercare, una chiave di ricerca.
+Lo script dovrà essere così invocato (esempio in PHP)
+
+$ php src/search.php ./file.csv 2 Alberto
+
+dove ./file.csv è il percorso di un file csv così formattato:
+1,Rossi,Fabio,01/06/1990;
+2,Gialli,Alessandro,02/07/1989;
+3,Verdi,Alberto,03/08/1987;
+
+Il numero 2 rappresenta l'indice di colonna in cui cercare (nel file precedente il nome)
+Alberto rappresenta la chiave di ricerca.
+
+L'output del comando deve essere la linea corrispondente, nel nostro caso:
+3,Verdi,Alberto,03/08/1987;
+
+La consegna è attesa in formato repository git pubblica, su GitHub o similari.
+
+
+
+Ti chiederei di completarlo e rimandarlo entro lunedì 28/06 (so che hai la chiusura del corso, possiamo sforare di un paio di giorni;).
+
+
+
+Grazie
+
+Jessica 
+
